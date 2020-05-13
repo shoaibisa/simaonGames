@@ -1,0 +1,75 @@
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100vh;
+    background-color: #011F3F;
+}
+
+.form input{
+    width:100%;
+    height:50px;
+    color:green;
+    padding-top:10px;
+    border:none;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+}
+
+ .form{
+   width:50%;
+   height:50px;
+   position: absolute;
+   left:30%;
+   top:30%;
+
+ }
+
+ #btn2{
+   margin: 5px;
+   display: inline-block;
+   height: 100px;
+   width:  240px;
+   position: absolute;
+  left:60%;
+  top: 70px;
+   border: 5px solid black;
+   border-radius: 20%;
+   font-size: 50px;
+ }
+ #h3{
+   font-family: 'Press Start 2P', cursive;
+   font-size: 2.1rem;
+   margin:  4%;
+   color:#FEF2BF;
+ }
+ #level-title {
+   font-family: 'Press Start 2P', cursive;
+   font-size: 2.6rem;
+   margin:  4%;
+   color: #FEF2BF;
+ }
+ #h2{
+   font-family: 'Press Start 2P', cursive;
+   font-size: 1.9rem;
+   margin:  5%;
+   color: #FEF2BF;
+ }
+
+/*  footer   */
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+footer p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
