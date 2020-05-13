@@ -60,13 +60,18 @@ body {
   .btn1 {
     margin: 5px;
     display: inline-block;
-    height: 130px;
-    width:  220px;
+    height: 180px;
+    width:  400px;
     border: 5px solid black;
     border-radius: 20%;
     font-size: 50px;
   }
- .button {
+
+   .a{
+     margin-left: 200px;
+   }
+
+   .button {
      display: block;
      width: 120px;
      height: 30px;
@@ -77,4 +82,26 @@ body {
      color: white;
      font-weight: bold;
      float: right;
+ }
+ .h{
+   font-family: 'Press Start 2P', cursive;
+   font-size: 1.9rem;
+   margin:  5%;
+   color: #FEF2BF;
+ }
+ /*  footer   */
+ footer {
+     background-color: #222;
+     color: #fff;
+     font-size: 14px;
+     bottom: 0;
+     position: fixed;
+     left: 0;
+     right: 0;
+     text-align: center;
+     z-index: 999;
+ }
+ footer p {
+     margin: 10px 0;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
